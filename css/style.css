@@ -83,7 +83,7 @@
 	padding: 40px;
 }
 
-.download-buttons > button {
+.download-buttons > button, .ready > button {
 	border-radius: 50px;
 	font-size: 20px;
 	margin: 0 20px;
@@ -144,6 +144,22 @@ main>section>.container {
 
 .hilighted-content > img {
 	height: 728px;
+}
+
+.ready > img {
+	height: 60px;
+}
+
+.ready > h3 {
+	margin-top: -20px;
+	font-size: 35px;
+	font-weight: 900;
+}
+
+.ready > button {
+	margin-top: 30px;
+	background-color: #8ea1e1;
+	color: white;
 }
 
 /* FOOTER */
