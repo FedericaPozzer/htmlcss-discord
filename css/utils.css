@@ -10,3 +10,17 @@
 	clear: both;
 	display: table;
 }
+
+.d-flex {
+	display: flex;
+}
+
+.bg-w {
+	background-color: #ffffff;
+	color: #23272a;
+}
+
+.bg-b {
+	background-color: #23272a;
+	color: #ffffff;
+}

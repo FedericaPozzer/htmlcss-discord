@@ -1,17 +1,18 @@
 /* HEADER */
 
 .header-head {
-	display: flex;
 	align-items: center;
 	min-height: 80px;
 	padding: 10px 0;
 
-	/* debug */
-	background-color: lightblue;
+	background-color: #3161e0;
+}
+
+.logo {
+	align-items: center;
 }
 
 .header-nav {
-	display: flex;
 	flex-grow: 1;
 	line-height: 30px;
 }
@@ -21,39 +22,77 @@
 	padding: 5px 10px;
 
 	/* debug */
-	background-color: goldenrod;
-	border: 2px dashed black;
+	/* background-color: goldenrod; */
+	/* border: 2px dashed black; */
 }
 
 .header-links {
 	flex-grow: 1;
-	text-align: center;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .header-login {
 	text-align: right;
 }
 
+.header-login > button {
+	border-radius: 50px;
+	width: 30%;
+	padding: 2px 4px;
+	border: none;
+	background-color: white;
+}
+
 /* JUMBOTRON */
 
 .jumbotron {
 	padding: 50px 0;
-	display: flex;
 	justify-content: center;
 
+	background-image: url(../img/jumbo.png);
+	background-size: 100%;
 
 	/* debug */
-	background-color: darkblue;
+	/* background-color: darkblue; */
 }
 
 .jumbotron .content {
 	min-height: 400px;
 	width: 50%;
+	text-align: center;
+	color: #ffffff;
 
 	/* debug */
-	background-color: #ee82ee;
-	border: 2px dashed black;
+	/* background-color: #ee82ee;
+	border: 2px dashed black; */
 }
+
+.header-title {
+	padding: 30px;
+	font-size: 50px;
+	font-weight: 900;
+}
+
+.header-paragraph {
+	font-size: 20px;
+	padding: 5px 100px 10px;
+}
+
+.download-buttons {
+	padding: 40px;
+}
+
+.download-buttons > button {
+	border-radius: 50px;
+	font-size: 20px;
+	margin: 0 20px;
+	padding: 15px 20px;
+	border: none;
+}
+
+
+
 
 /* MAIN & SECTIONS */
 
@@ -62,7 +101,6 @@ main>section {
 }
 
 main>section>.container {
-	display: flex;
 
 	/* debug */
 	min-height: 500px;
@@ -112,7 +150,6 @@ main>section>.container {
 }
 
 .footer-upper {
-	display: flex;
 	padding-bottom: 50px;
 	margin-bottom: 50px;
 	border-bottom: 2px solid purple;
@@ -130,7 +167,6 @@ main>section>.container {
 }
 
 .footer-side-col {
-	display: flex;
 	width: calc(100% / 3 * 2);
 
 	/* debug */
@@ -147,7 +183,6 @@ main>section>.container {
 }
 
 .footer-bottom {
-	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	min-height: 80px;

@@ -7,6 +7,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Discord Completo</title>
 
+	<!-- Roboto -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<!-- Roboto 900 -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/utils.css">
 	<link rel="stylesheet" href="./css/style.css">
@@ -14,41 +24,60 @@
 
 <body>
 	<header>
-		<div class="header-head">
-			<nav class="header-nav container">
-				<div>logo</div>
-				<div class="header-links">link link link link link</div>
-				<div class="header-login">login</div>
+		<div class="header-head d-flex">
+			<nav class="header-nav container d-flex">
+				
+				<div class="logo d-flex">
+					<img src="./img/logo.svg" alt="logo">
+				</div>
+				
+				<div class="header-links d-flex">
+					<a href="#">Scarica</a>
+					<a href="##">Perchè Discord</a>
+					<a href="###">Nitro</a>
+					<a href="####">Sicurezza</a>
+					<a href="#####">Assistenza</a>
+				</div>
+				
+				<div class="header-login">
+					<button>Accedi</button>
+				</div>
+			
 			</nav>
 		</div>
-		<div class="jumbotron">
+		<div class="jumbotron d-flex">
 			<div class="content">
-
+				<h1 class="header-title">Il tuo posto per parlare</h1>
+				<p class="header-paragraph">Che tu faccia parte di un club scolatico, gruppo gamer, comunità artistica mondiale, o semplicemente si un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
+				<div class="download-buttons">
+					<button class="bg-w"><span>&darr;</span> Scarica per Mac</button>
+					<button class="bg-b">Apri Discord nel tuo browser</button>
+				</div>
 			</div>
 		</div>
 	</header>
 
 	<main>
 		<section class="bg-white">
-			<div class="container">
+			<div class="container d-flex">
 				<div class="main-col"></div>
 				<div class="side-col"></div>
 			</div>
 		</section>
 		<section class="bg-gray">
-			<div class="container">
+			<div class="container d-flex">
 				<div class="side-col"></div>
 				<div class="main-col"></div>
 			</div>
 		</section>
 		<section class="bg-white">
-			<div class="container">
+			<div class="container d-flex">
 				<div class="main-col"></div>
 				<div class="side-col"></div>
 			</div>
 		</section>
 		<section class="bg-gray">
-			<div class="container">
+			<div class="container d-flex">
 				<div class="hilighted-content"></div>
 			</div>
 		</section>
@@ -57,9 +86,9 @@
 	<footer class="footer-main">
 		<div class="container">
 
-			<div class="footer-upper">
+			<div class="footer-upper d-flex">
 				<div class="footer-main-col"></div>
-				<div class="footer-side-col">
+				<div class="footer-side-col d-flex">
 					<div class="footer-col"></div>
 					<div class="footer-col"></div>
 					<div class="footer-col"></div>
@@ -67,7 +96,7 @@
 				</div>
 			</div>
 
-			<div class="footer-bottom">
+			<div class="footer-bottom d-flex">
 				<div>Logo</div>
 				<div>Bottone</div>
 			</div>
