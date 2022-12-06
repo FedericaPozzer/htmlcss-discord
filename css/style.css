@@ -101,33 +101,42 @@ main>section {
 }
 
 main>section>.container {
-
+	min-height: 557px;
 	/* debug */
-	min-height: 500px;
-}
-
-.bg-white {
-	background-color: white;
-}
-
-.bg-gray {
-	background-color: lightgray;
+	/* min-height: 500px; */
 }
 
 .main-col {
 	flex-grow: 2;
+	/* align-self: center; */
 
 	/* debug */
-	background-color: cornflowerblue;
-	border: 2px dashed black;
+	/* background-color: cornflowerblue;
+	border: 2px dashed black; */
 }
 
 .side-col {
 	flex-grow: 1;
+	padding: 70px;
+	align-self: center;
 
 	/* debug */
-	background-color: pink;
-	border: 2px dashed black;
+	/* background-color: pink;
+	border: 2px dashed black; */
+}
+
+.section-title {
+	font-size: 50px;
+	font-weight: 900;
+}
+
+.main-col > img {
+	/* padding-top: 60px; */
+}
+
+.side-col > p {
+	font-size: 19px;
+	margin-top: 30px;
 }
 
 .hilighted-content {
