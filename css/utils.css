@@ -16,6 +16,14 @@
 	display: flex;
 }
 
+a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+/* colors */
+
 .bg-w {
 	background-color: #ffffff;
 	color: #23272a;
@@ -36,10 +44,4 @@
 
 .col-w {
 	color: #ffffff;
-}
-
-a {
-	text-decoration: none;
-	color: white;
-	font-family: 'Roboto', sans-serif;
 }
