@@ -159,14 +159,12 @@ main>section>.container {
 .ready > button {
 	margin-top: 30px;
 	background-color: #8ea1e1;
-	color: white;
 }
 
 /* FOOTER */
 
 .footer-main {
-	padding-top: 10px;
-
+	padding-top: 40px;
 
 	/* debug */
 	background-color: #23272a;
@@ -183,26 +181,65 @@ main>section>.container {
 
 .footer-main-col {
 	width: calc(100% / 3);
+	flex-direction: column;
 
 	/* debug */
-	background-color: #f08080;
-	border: 2px dashed black;
+	/* background-color: #f08080;
+	border: 2px dashed black; */
+}
+
+.one > h3 {
+	font-size: 35px;
+	font-weight: bold;
+	padding-right: 50px;
+	margin-bottom: 30px;
+}
+
+.two > img {
+	height: 15px;
+	margin: 0 5px 20px 0;
+}
+
+#language-picker-select {
+	text-decoration: none;
+	background-color: transparent;
+	border: 0;
+	margin: 0;
+	font-size: 15px;
+	color: currentColor
+}
+
+.three {
+	font-size: 20px;
+}
+
+i {
+	margin: 0 10px 0 0;
 }
 
 .footer-side-col {
 	width: calc(100% / 3 * 2);
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed black;
+	/* background-color: #20b2aa;
+	border: 2px dashed black; */
 }
 
 .footer-col {
 	width: 25%;
+	font-size: 16px;
 
 	/* debug */
-	background-color: #20b2aa;
-	border: 2px dashed white;
+	/* background-color: #20b2aa;
+	border: 2px dashed white; */
+}
+
+.footer-col > * {
+	margin-bottom: 10px;
+}
+
+.footer-col > h4 {
+	font-weight: bold;
 }
 
 .footer-bottom {
