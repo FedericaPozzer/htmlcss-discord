@@ -105,7 +105,7 @@ main>section>.container {
 }
 
 .main-col {
-	flex-grow: 2;
+	flex-grow: 2; /* non va!*/
 
 	/* debug */
 	/* background-color: cornflowerblue;
@@ -113,7 +113,7 @@ main>section>.container {
 }
 
 .side-col {
-	flex-grow: 1;
+	flex-grow: 1; /* non va!*/
 	padding: 70px;
 	align-self: center;
 
@@ -263,4 +263,21 @@ i {
 	font-size: 15px;
 	padding: 10px 15px;
 	border: none;
+}
+
+/* Waves */
+
+/* main > section::after {
+	content: "";
+	background-image: url(../img/wave.svg);
+	display: block;
+	background-size: cover;
+	height: 100px;
+	fill: #f6f6f6;
+} */
+
+.wave {
+	display: block;
+	background-size: cover;
+	height: 100px;
 }
